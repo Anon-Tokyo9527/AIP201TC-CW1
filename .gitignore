@@ -1,0 +1,23 @@
+# Downloaded datasets and local environments
+data/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Notebook checkpoints, caches, and editor settings
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# New verification results and exports
+verification/
+results.json
+*.html
+*.pdf
+*.log
